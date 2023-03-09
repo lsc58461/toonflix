@@ -4,8 +4,9 @@ class CurrencyCard extends StatelessWidget {
   final String name, code, amount;
   final IconData icon;
   final bool isInverted;
-  final _BlackColor = const Color(0xFF1F2123);
   final double offset;
+
+  final _BlackColor = const Color(0xFF1F2123);
 
   const CurrencyCard({
     super.key,
